@@ -20,27 +20,29 @@ body
     display: flex;
     background: #fff;
     //border: 1px solid black;
+    flex-wrap: wrap;
 }
 .box
 {
     height: 100px;
-    width: 320px;
+    min-width: 200px;
+    flex-grow: 1;
     
     
 }
 .one 
 {
     background: red;
-    flex-shrink: 5;
+    
 }
 .two
 {
     background: blue;
-    flex-shrink: 2;
+    
     
 }
 .three
 {
     background: green;
-    flex-shrink: 3;
+    
 }
