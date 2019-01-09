@@ -12,27 +12,27 @@ body
 .wrapper
 {
     width: 100%;
-    max-width: 960px;
+    max-width: 1200px;
+    margin: 0 auto;
 
 }
 .container
 {
     display: flex;
     background: #fff;
-    //border: 1px solid black;
     flex-wrap: wrap;
 }
 .box
 {
     height: 100px;
-    min-width: 200px;
-    flex-grow: 1;
+    flex: 1 0 200px;
     
     
 }
 .one 
 {
     background: red;
+    
     
 }
 .two
