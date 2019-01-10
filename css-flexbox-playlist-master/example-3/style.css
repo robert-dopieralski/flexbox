@@ -124,6 +124,12 @@ ul.social{
 article
 {
   flex: 0 1 32%;
+  transition: flex-basis 0.15s linear;
+}
+
+article.stack
+{
+  flex: 0 1 100%;
 }
 
     
