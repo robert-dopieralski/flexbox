@@ -16,35 +16,41 @@ body
     margin: 0 auto;
 
 }
-.container
+.wrapper
 {
-    display: flex;
     background: #fff;
-    flex-wrap: wrap;
-    flex-flow: column;
+    
     height: 600px;
-    align-items: center;
-    justify-content: center;
 }
-.box
+#blocks
 {
+    width: 100%;
+    max-width: 800px;
+    display: inline-block;
+    flex-wrap: nowrap;
+    
+}
+#blocks .one
+{
+    height: 100px;
     width: 100px;
-    flex: 0 0 100px;
+    background: grey;
 }
-.one 
+#blocks .two
 {
-    background: red;
-    
-    
+    height: 100px;
+    width: 100px;
+    background: grey;
 }
-.two
+#blocks .three
 {
-    background: blue;
-    
-    
+    height: 100px;
+    width: 100px;
+    background: grey;
 }
-.three
+#blocks .four
 {
-    background: green;
-    
+    height: 100px;
+    width: 100px;
+    background: grey;
 }
